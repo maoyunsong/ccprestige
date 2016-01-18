@@ -9,7 +9,12 @@
 }
 
 body {
-  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: #f7f7f7;
+  font-family: "DIN", "Microsoft Yahei", Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -68,7 +73,7 @@ body {
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 730px;
+    //max-width: 730px;
   }
 
   /* Remove the padding we set earlier */
